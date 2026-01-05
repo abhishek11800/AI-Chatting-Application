@@ -1,16 +1,35 @@
-# React + Vite
+# 🧠 AI Chatting Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![React](https://img.shields.io/badge/React-18-blue)
+![Vite](https://img.shields.io/badge/Vite-Build-orange)
+![TailwindCSS](https://img.shields.io/badge/Tailwind-CSS-38BDF8)
+![Status](https://img.shields.io/badge/Project-Active-green)
 
-Currently, two official plugins are available:
+An interactive **AI Chatting Application** built using **React, Vite, and Tailwind CSS**.  
+It provides a modern chat UI, animated backgrounds, smooth interactions, and file attachment support.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Clone Repository
+git clone https://github.com/abhishek11800/AI-Chatting-Application.git
 
-## Expanding the ESLint configuration
+## Move into project:
+cd AI-Chatting-Application
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+
+
+## Install Dependencies
+npm install
+
+
+## Run Development Server
+npm run dev
+
+
+## 👤 Author
+
+## Abhishek Kumar
+🔗 GitHub: https://github.com/abhishek11800
+
+
