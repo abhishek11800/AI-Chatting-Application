@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+/* Hide scrollbars but keep scrolling functionality */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0) translateX(0) rotate(0deg);
+    opacity: 0.3;
+  }
+  25% {
+    transform: translateY(-15px) translateX(10px) rotate(90deg);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(-25px) translateX(-5px) rotate(180deg);
+    opacity: 0.4;
+  }
+  75% {
+    transform: translateY(-10px) translateX(15px) rotate(270deg);
+    opacity: 0.7;
+  }
+}
+
+@keyframes morph {
+  0%, 100% {
+    d: path("M100,20 C120,18 142,25 155,40 C168,55 175,70 178,90 C181,110 178,130 168,148 C158,166 145,178 125,185 C105,192 85,190 68,180 C51,170 38,155 28,135 C18,115 15,95 20,75 C25,55 38,35 58,25 C78,15 88,21 100,20 Z");
+  }
+  50% {
+    d: path("M100,18 C122,17 144,23 158,38 C172,53 178,68 180,88 C182,108 180,128 170,146 C160,164 148,180 128,187 C108,194 88,192 70,182 C52,172 40,152 30,132 C20,112 16,92 21,72 C26,52 36,32 56,23 C76,14 86,19 100,18 Z");
+  }
+}
